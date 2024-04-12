@@ -1,0 +1,414 @@
+py .\main.py
+   
+        Bienvenido al administrador de participantes:
+            [1] => Mostrar todos los participantes   
+            [2] => Agregar un nuevo participante     
+            [3] => Editar un participante existente  
+            [4] => Salir
+
+            [w] => Ganador!
+
+Ingrese el número de la opción que desea realizar: 2
+Ingrese el nombre: Belsabet Castillo Velarde
+Ingrese el número de celular: 
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 5
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Ariel Vicente Quintana
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: David Colin
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 6
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Maricarnen Sánchez
+Ingrese el número de celular: 
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Vicky Sanchez
+Ingrese el número de celular: 
+Ingrese la referencia: Comadre FB
+Cuantos boletos (deje en blanco para un boleto): 3
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Maribel Lugo
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Julia Esther Graff
+Ingrese el número de celular: 
+Ingrese la referencia: Mamá ExCBNG
+Cuantos boletos (deje en blanco para un boleto): 6
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Karina Tapia
+Ingrese el número de celular: 
+Ingrese la referencia: compañera CBTIS
+Cuantos boletos (deje en blanco para un boleto): 10
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Alejandrina Encinas
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Claudia Larios Felix
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera de Jorge
+Cuantos boletos (deje en blanco para un boleto): 1
+Participante agregado correctamente.
+Ingrese el nombre: Judith Alatorre
+Ingrese el número de celular: 
+Ingrese la referencia: Excompañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Jorge Meza Gomez
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Fabiola Martínez
+Ingrese el número de celular: 
+Ingrese la referencia: Excompañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Concepción Hernández
+Ingrese el número de celular: 
+Ingrese la referencia: Tía Conchi
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Isabel Estrada
+Ingrese el número de celular: 
+Ingrese la referencia: Excompañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Lourdes Zúñiga
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBTIS
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Ana María Morales
+Ingrese el número de celular: 
+Ingrese la referencia: Vecina
+Cuantos boletos (deje en blanco para un boleto): 3
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Danitza Morghen
+Ingrese el número de celular: 
+Ingrese la referencia: Mamá ExCBNG (Ana Paula Burgos)
+Cuantos boletos (deje en blanco para un boleto): 5
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Teresita Chavolla
+Ingrese el número de celular: 
+Ingrese la referencia: Mamá ExCBNG
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Gema Ivonne Barboza
+Ingrese el número de celular: 
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Martín Haro
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 8
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Mavis Flores
+Ingrese el número de celular: 
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Luz Marina Castillo Velarde
+Ingrese el número de celular: 
+Ingrese la referencia: Compartido por Belsabet Castillo
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Emiliano Carrasco
+Ingrese el número de celular: 
+Ingrese la referencia: Mamá CBNG
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Sarahí Córdova
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Melisa Enríquez
+Ingrese el número de celular: 
+Ingrese la referencia: Amiga de Anahí
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Nayeli Chavez
+Ingrese el número de celular: 
+Ingrese la referencia: Amiga de Anahí
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Iván Medina
+Ingrese el número de celular: 
+Ingrese la referencia: Amigo de Anahí
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Abraham Vega
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 10
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Amanda Leyva
+Ingrese el número de celular: 
+Ingrese la referencia: 
+Cuantos boletos (deje en blanco para un boleto): Boutique Escolar
+La cantidad de boletos debe ser un número entero positivo.
+Ingrese el nombre: Amanda Leyva     
+Ingrese el número de celular: 
+Ingrese la referencia: Boutique Escolar
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Norma Cariaga
+Ingrese el número de celular: 
+Ingrese la referencia: MF
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Gisela Reyes
+Ingrese el número de celular: 
+Ingrese la referencia: MF
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Lidia Ávila
+Ingrese el número de celular: 
+Ingrese la referencia: MF
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Nayda Leyva
+Ingrese el número de celular: 
+Ingrese la referencia: Referida de Amanda (boutique)
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Juan Pablo Leyva
+Ingrese el número de celular: 
+Ingrese la referencia: Referido de Amanda (boutique)
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Omar Bartolini
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 6
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Vicente Yanez
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Mariana Messerve
+Ingrese el número de celular: 
+Ingrese la referencia: Amiga de la Prics
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Erika Peña
+Ingrese el número de celular: 
+Ingrese la referencia: Excompañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Manuel Bernardo Ramírez C.
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero Fed 4
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: María del Carmen Benitez
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBNG
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Argelia Romero
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBTIS
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Jose Luis Ruiz Piña
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 6
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Manuel Salvador Campa
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero Fed 4
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Marina Mada
+Ingrese el número de celular:                
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 6
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Jorge Castelo
+Ingrese el número de celular: 
+Ingrese la referencia: Amigo FB
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Karla Chavez
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera CBTIS
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Patty Felix
+Ingrese el número de celular: 
+Ingrese la referencia: compañera Fed 4
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: David Herrerias
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero La Roca
+Cuantos boletos (deje en blanco para un boleto): 2
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Juan Jesús Velasco G
+Ingrese el número de celular: 
+Ingrese la referencia: Amigo de Belsabet
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre: Omar Puente
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 20
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Rodrigo Buelna
+Ingrese el número de celular: 
+Ingrese la referencia: Compañero CBTIS
+Cuantos boletos (deje en blanco para un boleto): 4
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Participante agregado correctamente.
+Ingrese el nombre: Cinthia Alejandra García
+Ingrese el número de celular: 
+Ingrese la referencia: Compañera David
+Cuantos boletos (deje en blanco para un boleto): 
+Participante agregado correctamente.
+Ingrese el nombre:
+   
+        Bienvenido al administrador de participantes:
+            [1] => Mostrar todos los participantes
+            [2] => Agregar un nuevo participante
+            [3] => Editar un participante existente
+            [4] => Salir
+
+            [w] => Ganador!
+
+Ingrese el número de la opción que desea realizar:   

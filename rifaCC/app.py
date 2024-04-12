@@ -15,10 +15,32 @@ class RifaCC:
             if opcion == "1":
                 self.managment.show_participants()
             elif opcion == "2":
-                nombre = input("Ingrese el nombre: ")
-                celular = input("Ingrese el número de celular: ")
-                referencia = input("Ingrese la referencia: ")
-                self.managment.add_participant(nombre, celular, referencia)
+                while True:
+                    nombre = input("Ingrese el nombre: ")
+                    if not nombre:
+                        break
+
+                    celular = input("Ingrese el número de celular: ")
+                    referencia = input("Ingrese la referencia: ")
+                    tickets = input("Cuantos boletos (deje en blanco para un boleto): ")
+
+                    # Si el usuario deja en blanco la cantidad de boletos, se asume que solo compra uno
+                    if not tickets:
+                        tickets = 1
+                    else:
+                        # Validar que la cantidad de boletos sea un número entero positivo
+                        try:
+                            tickets = int(tickets)
+                            if tickets <= 0:
+                                raise ValueError
+                        except ValueError:
+                            print("La cantidad de boletos debe ser un número entero positivo.")
+                            continue
+
+                    # Agregar el participante con la cantidad de boletos ingresada
+                    for _ in range(tickets):
+                        self.managment.add_participant(nombre, celular, referencia)
+
             elif opcion == "3":
                 index = int(
                     input("Ingrese el índice del participante que desea editar: ")
