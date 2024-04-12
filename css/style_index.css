@@ -1,0 +1,43 @@
+body {
+    background-color: #f4bddf; /* Rosa claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #d81b60; /* Rosa oscuro */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+a {
+    background-color: #d81b60; /* Rosa oscuro */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #ad1457; /* Rosa más oscuro al pasar el mouse */
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 30px;
+}

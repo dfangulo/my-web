@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Nombres</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Lista de Nombres</h1>
+    <div class="mb-3">
+      <form id="formulario">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" id="nombre" required />
+        <label for="celular" class="form-label">Celular:</label>
+        <input type="text" id="celular" required />
+        <label for="referencia" class="form-label">Referencia:</label>
+        <input type="text" id="referencia" required />
+        <button type="submit">Agregar</button>
+      </form>
+    </div>
+    <ul id="lista-nombres">
+      <!-- Aquí se mostrarán los nombres ingresados -->
+    </ul>
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

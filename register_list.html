@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Participantes</title>
+    <!-- Estilos básicos para la tabla -->
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Participantes</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Celular</th>
+                <th>Referencia</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-datos">
+            <!-- Los datos se llenarán aquí con JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        // Cargar los datos del JSON
+        fetch('js/json/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const tablaDatos = document.getElementById('tabla-datos');
+                data.data.forEach(registro => {
+                    const fila = document.createElement('tr');
+                    fila.innerHTML = `
+                        <td>${registro.name}</td>
+                        <td>${enmascararCelular(registro.celular)}</td>
+                        <td>${registro.reference}</td>
+                    `;
+                    tablaDatos.appendChild(fila);
+                });
+            })
+            .catch(error => console.error('Error al cargar los datos:', error));
+
+            function enmascararCelular(celular) {
+                // Mostrar solo los últimos 3 dígitos del celular
+                const enmascarado = '*'.repeat(celular.length - 3) + celular.slice(-3);
+                return enmascarado;
+              }
+    </script>
+</body>
+</html>

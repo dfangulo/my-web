@@ -1,0 +1,1 @@
+from .tombola import Tombola
