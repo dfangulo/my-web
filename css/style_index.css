@@ -1,5 +1,6 @@
 body {
-    background-color: #f4bddf; /* Rosa claro */
+    background-color: #f4bddf;
+    /* Rosa claro */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +14,8 @@ body {
 }
 
 h1 {
-    color: #d81b60; /* Rosa oscuro */
+    color: #d81b60;
+    /* Rosa oscuro */
     margin-bottom: 20px;
 }
 
@@ -24,7 +26,8 @@ p {
 }
 
 a {
-    background-color: #d81b60; /* Rosa oscuro */
+    background-color: #d81b60;
+    /* Rosa oscuro */
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -33,7 +36,10 @@ a {
 }
 
 a:hover {
-    background-color: #ad1457; /* Rosa más oscuro al pasar el mouse */
+    background-color: #ad1457;
+    /* Rosa más oscuro al pasar el mouse */
+    text-decoration: none;
+    color: #fff;
 }
 
 img {
