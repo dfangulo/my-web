@@ -52,18 +52,20 @@
         text-decoration: none;
         color: #fff;
         border-radius: 7px;
-
       }
     </style>
   </head>
   <body>
     <h1>Lista de Participantes</h1>
-    <a href="/rifacc">Regresar</a>
+    <br>
+    <div><a href="/rifacc">Regresar</a></div>
+    <br>
 
     <table>
       <thead>
         <tr>
           <th>Nombre</th>
+          <th>Boletos</th>
           <!-- <th>Celular</th>
                 <th>Referencia</th> -->
         </tr>
@@ -78,7 +80,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
+    <!-- <script>
       // Cargar los datos del JSON
       fetch("js/json/data.json")
         .then((response) => response.json())
@@ -91,6 +93,47 @@
                     `;
             tablaDatos.appendChild(fila);
           });
+        })
+        .catch((error) => console.error("Error al cargar los datos:", error));
+
+      function enmascararCelular(celular) {
+        // Mostrar solo los últimos 3 dígitos del celular
+        const enmascarado = "*".repeat(celular.length - 3) + celular.slice(-3);
+        return enmascarado;
+      }
+    </script> -->
+    <script>
+      // Cargar los datos del JSON
+      fetch("js/json/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const tablaDatos = document.getElementById("tabla-datos");
+
+          // Crear un objeto para almacenar el conteo de nombres
+          const conteoNombres = {};
+
+          // Iterar sobre los datos y contar cuántas veces aparece cada nombre
+          data.data.forEach((registro) => {
+            const nombre = registro.name;
+
+            // Si el nombre ya está en el objeto, incrementar el contador
+            if (conteoNombres[nombre]) {
+              conteoNombres[nombre]++;
+            } else {
+              // Si el nombre no está en el objeto, inicializar el contador en 1
+              conteoNombres[nombre] = 1;
+            }
+          });
+
+          // Iterar sobre el objeto de conteo y agregar los datos a la tabla
+          for (const nombre in conteoNombres) {
+            const fila = document.createElement("tr");
+            fila.innerHTML = `
+              <td>${nombre}</td>
+              <td>${conteoNombres[nombre]}</td>
+            `;
+            tablaDatos.appendChild(fila);
+          }
         })
         .catch((error) => console.error("Error al cargar los datos:", error));
 
