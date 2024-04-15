@@ -1,3 +1,4 @@
+import os
 from .menu import mostrar_menu
 from .controller import ManagementParticipants
 from .tombola import Tombola
@@ -8,6 +9,7 @@ class RifaCC:
     tombola = Tombola()
 
     def main(self):
+        os.system('cls')
         while True:
             mostrar_menu()
             opcion = input("Ingrese el número de la opción que desea realizar: ")
@@ -34,7 +36,9 @@ class RifaCC:
                             if tickets <= 0:
                                 raise ValueError
                         except ValueError:
-                            print("La cantidad de boletos debe ser un número entero positivo.")
+                            print(
+                                "La cantidad de boletos debe ser un número entero positivo."
+                            )
                             continue
 
                     # Agregar el participante con la cantidad de boletos ingresada
@@ -73,5 +77,7 @@ class RifaCC:
             elif opcion == "w":
                 self.tombola.load_participants()
                 self.tombola.select_winner()
+                self.tombola.reveal_winner()
+                break
             else:
                 print("Opción no válida. Por favor, ingrese un número del 1 al 4.")
