@@ -57,13 +57,22 @@ class Tombola:
         text = [ f"[\033[92m{participant.center(30, " ")}\033[0m]" + f" [{tickets:>2} \033[91m\u2764\033[0m ]" for participant, tickets in  count_data_participants.items()]
         self.smooth_fade_out(text="\n".join(text))
         print('\n' * 2)
-        text = "¡Y el ganador es...: "
-        self.smooth_print(text, delay=0.1)
+        winner = (self.winner['name'].center(35))
+        text =f"""
+        {"¡Y el ganador es!:".center(35)} 
+        
+        
+        {winner}
+        
+        {"Muchas Gracias a todos!".center(35)}
+        
+        """
+        self.smooth_fade_out(text, delay=0.1)
         print()
         time.sleep(
-            wait_time * 3
+            wait_time
         )
-        self.smooth_fade_out((self.winner['name'].center(35)))
+        self.smooth_print("Ganador".center(35) + "\n\n\t" + self.winner['name'].center(35) + '\n\n')
 
     def smooth_print(self,text, delay=0.02):
         for char in text:
