@@ -102,3 +102,21 @@ class ManagementParticipants:
                 print("El índice de participante está fuera de rango.")
         else:
             print("No se pudieron cargar los datos.")
+
+    def list_participants(self, file_path: str = 'list.txt') -> None:
+        os.system("cls")
+        data = self.load_data()
+        if data is not None:
+            with open(file_path, "w", encoding="utf-8") as file:
+                for i, participant_data in enumerate(data["data"]):
+                    if all(
+                        field in participant_data
+                        for field in ["name", "celular", "reference"]
+                    ):
+                        participant = Participant(**participant_data)
+                        file.write(f"{participant.name}\n")
+                    else:
+                        print(f"Los datos del participante en el índice {i} son inválidos.")
+            print(f"Los nombres de los participantes se han guardado en el archivo: {file_path}")
+        else:
+            print("No se pudieron cargar los datos.")

@@ -7,4 +7,6 @@ def mostrar_menu():
             [4] => Salir
             
             [w] => Ganador!
+            [L] => RAW lista de participantes!
+            
     """)

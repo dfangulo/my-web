@@ -74,6 +74,8 @@ class RifaCC:
             elif opcion == "4":
                 print("¡Hasta luego!")
                 break
+            elif opcion.lower() == "l":
+                self.managment.list_participants()
             elif opcion == "w":
                 self.tombola.load_participants()
                 self.tombola.select_winner()
